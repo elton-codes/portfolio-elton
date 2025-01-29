@@ -139,13 +139,13 @@ const Hero = () => {
           A Creative Frontend Developer
         </motion.p>
         <motion.a
-              href="#contact"
-              className="mt-8 inline-block px-6 py-3 bg-gradient-to-r from-[#00BBFF] to-gray text-white rounded-lg hover:from-gray-500 hover:to-[#00A3E0] transition"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              Contact Me
-            </motion.a>
+          href="#contact"
+          className="mt-8 inline-block px-6 py-3 bg-gradient-to-r from-[#00BBFF] to-gray text-white rounded-lg hover:from-gray-500 hover:to-[#00A3E0] transition"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          Contact Me
+        </motion.a>
       </motion.div>
     </div>
   );
