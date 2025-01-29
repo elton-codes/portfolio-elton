@@ -1,0 +1,33 @@
+
+@import "tailwindcss";
+
+:root {
+  --primary: #1E293B;
+  --secondary: #334155;
+  --white: #FFFFFF;
+  --light: #E5E7EB;
+  --blue: #00BBFF;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+
+.text-light {
+  color: var(--light);
+}
+
+.text-accent {
+  color: var(--white);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.font-sans {
+  font-family: 'Poppins', sans-serif;
+}
+
+
