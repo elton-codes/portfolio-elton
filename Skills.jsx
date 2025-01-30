@@ -41,7 +41,7 @@ const Skills = () => {
   ];
 
   return (
-    <div id="skills" className="bg-[#0B0D10] text-white pt-10 pb-10 px-6">
+    <div id="skills" className="bg-[#0B0D10] text-white pt-20 pb-10 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-12">

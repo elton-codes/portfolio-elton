@@ -43,7 +43,7 @@ const About = () => {
             transition={{ duration: 1 }}
             className="w-full"
           >
-            <p className="text-lg leading-relaxed text-gray-300 mb-6 text-center md:text-left">
+            <p className="text-lg leading-relaxed text-gray-300 mb-8 text-center md:text-left">
               I am a frontend web developer with a strong foundation in
               React.js, JavaScript, HTML, and Tailwind CSS. Leveraging several years of experience in administrative roles, I bring exceptional attention to detail and organizational expertise to the tech space. My passion lies in crafting responsive and user-friendly web applications through clean and efficient code that transforms designs into functional digital experiences. Driven by a commitment to solving complex problems and enhancing user experiences, I am eager to contribute to innovative projects that create meaningful impact in the digital realm.
             </p>
