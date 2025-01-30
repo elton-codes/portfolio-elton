@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { aboutImg } from "./src/assets";
+import { Mail, Phone, Github, Linkedin } from "lucide-react";
 
 const About = () => {
   return (
@@ -43,35 +44,40 @@ const About = () => {
             className="w-full"
           >
             <p className="text-lg leading-relaxed text-gray-300 mb-6 text-center md:text-left">
-              I am a frontend web developer with expertise in React.js,
-              JavaScript, HTML, and Tailwind CSS. My passion lies in creating
-              responsive, user-friendly websites that bridge the gap between
-              design and functionality.
+              I am a frontend web developer with a strong foundation in
+              React.js, JavaScript, HTML, and Tailwind CSS. Leveraging several years of experience in administrative roles, I bring exceptional attention to detail and organizational expertise to the tech space. My passion lies in crafting responsive and user-friendly web applications through clean and efficient code that transforms designs into functional digital experiences. Driven by a commitment to solving complex problems and enhancing user experiences, I am eager to contribute to innovative projects that create meaningful impact in the digital realm.
             </p>
 
-            <div className="border border-gray-700 rounded-lg p-4 md:p-6 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm md:text-base">
-              <div>
-                <p>
-                  <span className="text-[#00BBFF] font-semibold">Name:</span> Elton Asamoah-Mantey
-                </p>
-                <p>
-                  <span className="text-[#00BBFF] font-semibold">Experience:</span> 3+ Years
-                </p>
-                <p>
-                  <span className="text-[#00BBFF] font-semibold">Location:</span> Ghana
-                </p>
-              </div>
-              <div>
-                <p className="break-words">
-                  <span className="text-[#00BBFF] font-semibold">Email:</span> eltonasamoah007@gmail.com
-                </p>
-                <p>
-                  <span className="text-[#00BBFF] font-semibold">Freelance:</span> Available
-                </p>
-                <p>
-                  <span className="text-[#00BBFF] font-semibold">Phone:</span> +233 24 208 4838
-                </p>
-              </div>
+            {/* Social Links */}
+            <div className="flex justify-center md:justify-start gap-6 mt-4">
+              <a
+                href="https://github.com/eltonasamoah"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue"
+              > 
+                <Github className="w-6 h-6" />
+              </a>
+              <a
+                href="https://linkedin.com/in/eltonasamoah"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue"
+              >
+                <Linkedin className="w-6 h-6" />
+              </a>
+              <a
+                href="mailto:eltonasamoah007@gmail.com"
+                className="text-blue"
+              >
+                <Mail className="w-6 h-6" />
+              </a>
+              <a
+                href="tel:+233242084838"
+                className="text-blue"
+              >
+                <Phone className="w-6 h-6" />
+              </a>
             </div>
           </motion.div>
         </div>
