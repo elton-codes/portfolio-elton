@@ -51,7 +51,7 @@ const About = () => {
             {/* Social Links */}
             <div className="flex justify-center md:justify-start gap-6 mt-4">
               <a
-                href="https://github.com/eltonasamoah"
+                href="https://github.com/elton-codes"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue"
@@ -59,7 +59,7 @@ const About = () => {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com/in/eltonasamoah"
+                href="https://www.linkedin.com/in/eltonasamoahmantey"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue"
